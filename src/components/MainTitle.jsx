@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native'
 
 const MainTitle = () => {
     return (
-        <View style = { styles.container }>
-            <Text style = { styles.mainTitle }>
+        <View style = { styles.mainTitleContainer }>
+            <Text style = { styles.mainTitleText }>
                 Homnizer
             </Text>
         </View>
@@ -12,14 +12,11 @@ const MainTitle = () => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        paddingTop: '10%',
-        paddingBottom: '5%',
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
+    mainTitleContainer: {
+        paddingTop: '1%',
+        paddingBottom: '2%',
     },
-    mainTitle: {
+    mainTitleText: {
         color: '#000',
         fontWeight: 'bold',
         fontFamily: '',

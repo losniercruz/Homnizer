@@ -1,0 +1,114 @@
+{
+    "store": [{
+        "storeId": 1,
+        "name": "Amazon",
+        "website": "amazon.com",
+        "description": "A United States Company"
+    }],
+    "currency": [{
+            "currencyId": 1,
+            "name": "Dollar",
+            "short": "US",
+            "symbol": "$",
+            "price": 1.00
+        },
+        {
+            "currencyId": 2,
+            "name": "Colon",
+            "short": "CRC",
+            "symbol": "₡",
+            "price": 672.95
+        }
+    ],
+    "category": [{
+            "categoryId": 1,
+            "name": "Computer",
+            "description": ""
+        },
+        {
+            "categoryId": 2,
+            "name": "Components",
+            "description": ""
+        },
+        {
+            "categoryId": 3,
+            "name": "Storage",
+            "description": ""
+        },
+        {
+            "categoryId": 4,
+            "name": "SSD",
+            "description": ""
+        }
+    ],
+    "brand": [{
+            "brandId": 1,
+            "name": "Samsung",
+            "shortName": "Samsung",
+            "description": "A South Korean Company",
+            "image": "./src/imgs/samsung.png"
+        },
+        {
+            "brandId": 2,
+            "name": "Western Digital",
+            "shortName": "WD",
+            "description": "A United States Company",
+            "image": "./src/imgs/wd.png"
+        }
+    ],
+    "product": [{
+            "productId": 1,
+            "brandId": 1,
+            "name": "Samsung 860 EVO",
+            "model": "860 EVO",
+            "description": "Samsung 860 EVO 1TB Open Box SATA",
+            "currencyId": 2,
+            "price": 33043.17
+        },
+        {
+            "productId": 2,
+            "brandId": 2,
+            "name": "Western Digital Black SN750",
+            "model": "Black SN750",
+            "description": "Western Digital Black SN750 250GB Damaged Box NVMe",
+            "currencyId": 2,
+            "price": 20498.20
+        },
+        {
+            "productId": 3,
+            "brandId": 2,
+            "name": "Western Digital Blue SN550",
+            "model": "Blue SN550",
+            "description": "Western Digital Blue SN550 500GB Boxless NVMe",
+            "currencyId": 2,
+            "price": 26000.00
+        },
+        {
+            "productId": 4,
+            "brandId": 1,
+            "name": "Samsung 980",
+            "model": "980",
+            "description": "Samsung 980 500GB Damaged Box-Used NVMe",
+            "currencyId": 2,
+            "price": 21329.48
+        },
+        {
+            "productId": 5,
+            "brandId": 1,
+            "name": "Samsung 980",
+            "model": "980",
+            "description": "Samsung 980 500GB Damaged Box NVMe",
+            "currencyId": 2,
+            "price": 24528.91
+        },
+        {
+            "productId": 6,
+            "brandId": 2,
+            "name": "Western Digital Blue SN570",
+            "model": "Blue SN570",
+            "description": "Western Digital Blue SN570 250GB Damaged Box NVMe",
+            "currencyId": 2,
+            "price": 17424.60
+        }
+    ]
+}
